@@ -21,7 +21,6 @@ header img{
     height: 4em;
 }
 
-/*Navigation Menu style rules*/
 nav {
     float: left;
     width: 15em;
@@ -43,8 +42,6 @@ nav ul li a{
 nav ul li a:hover{
     color: white;
 }
-
-/*Section style rules*/
 #speech{
     background-color: rgb(212,212,212);
     width: 40em;
@@ -61,7 +58,7 @@ nav ul li a:hover{
     font-size: 0.9em;
     margin: 1em;
 }
-/*Creating Dropcap effect on the first letter of the first paragraph*/
+
 #speech p:first-of-type:first-letter{
     float: left;
     font-size: 4em;
@@ -77,8 +74,6 @@ nav ul li a:hover{
  section p:first-of-type:first-line {
     text-transform: uppercase;
 }
-
-/*Setting up irregular line wrap*/
 #speech img{
     clear: right;
     float: right;
